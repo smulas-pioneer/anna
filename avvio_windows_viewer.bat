@@ -1,0 +1,1 @@
+start Viewer\Win\MPDicomViewer.exe

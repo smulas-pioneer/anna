@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Request>
+  <TOTEM>
+    <RifEsame> </RifEsame>
+    <CodFisc> </CodFisc>
+    <IDRichiesta> </IDRichiesta>
+    <TotemURL> </TotemURL>
+    <EsamePagato> </EsamePagato>
+    <MotOscuramento> </MotOscuramento>
+    <ExtraData> </ExtraData>
+  </TOTEM>
+  <PACSServer>
+    <Ip>10.20.0.30</Ip>
+    <Port>104</Port>
+    <AETitle>MIPDicomSCP</AETitle>
+  </PACSServer>
+  <AccsNumList>
+ <AccsNumItem>
+   <IP>10.20.0.30</IP>
+   <Port>104</Port>
+   <AETitle>MIPDicomSCP</AETitle>
+   <AccsNum>0034411388</AccsNum>
+</AccsNumItem>
+</AccsNumList>
+   
+  <MPDestination>
+        <Priority>2</Priority>
+        <Node>CDRADSAC1</Node>
+  </MPDestination>
+  <WSNotify>
+    <Url>http://10.20.0.35:8080/MicroprintBurner/IMicroprintStatusService?wsdl</Url>
+  </WSNotify>
+  <Report>
+    <Patient>
+      <PatientName>GUATTARI^ANNA</PatientName>
+      <PatientID>3117246</PatientID>
+      <PatientBirthDate>19771223</PatientBirthDate>
+      <PatientSex>F</PatientSex>
+    </Patient>
+    <Study>
+      <AccessionNumber>0034411388</AccessionNumber>
+      <StudyDate>20210128</StudyDate>
+      <StudyTime>1516</StudyTime>
+      <StudyID>34411388</StudyID>
+    </Study>
+    <Equipment>
+      <InstitutionName>FONDAZIONE IRCCS CA' GRANDA Ospedale Maggiore Policlinico</InstitutionName>
+      <Manufacturer>ProData</Manufacturer>
+      <ModelName>MicroPrint</ModelName>
+    </Equipment>
+    <SRGeneral>
+      <Completion>COMPLETE</Completion>
+      <Verification>VERIFIED</Verification>
+      <ContentDate>20210128</ContentDate>
+      <ContentTime>1547</ContentTime>
+      <Verifier>
+        <VerifierName> ^ ^ </VerifierName>
+        <VerifierCode codingScheme="" codeId="" codeMeaning=""></VerifierCode>
+        <Organization>FONDAZIONE IRCCS CA' GRANDA Ospedale Maggiore Policlinico</Organization>
+        <VerificationDateTime>202101281547</VerificationDateTime>
+      </Verifier>
+    </SRGeneral>
+    <SRDocument codingScheme="LN" codeId="18748-4" codeMeaning="Referto di Diagnostica per Immagini">
+      <Observation>
+        <Observer>
+          <ObserverPerson>
+            <ObserverName> ^ ^ </ObserverName>
+            <ObserverOrganization>Radiologia</ObserverOrganization>
+          </ObserverPerson>
+        </Observer>
+      </Observation>
+      <Modifier>
+        <Language>
+          <LanguageType codingScheme="ISO639_2" codeId="ita" codeMeaning="Italiano">
+          </LanguageType>
+          <Country codingScheme="ISO3166_1" codeId="IT" codeMeaning="Italia">
+          </Country>
+        </Language>
+      </Modifier>
+      <Heading codingScheme="DCM" codeId="121062" codeMeaning="Richiesta">
+        <Text codingScheme="DCM" codeId="121062" codeMeaning="Richiesta">
+          <TextValue><![CDATA[ 6988791 ECOGRAFIA CUTE E TESSUTO SOTTOCUTANEO
+]]></TextValue>
+        </Text>
+      </Heading>
+      <Heading codingScheme="DCM" codeId="121070" codeMeaning="Referti">
+        <Text codingScheme="DCM" codeId="121071" codeMeaning="Referto">
+          <TextValue></TextValue>
+          <TextType></TextType>
+        </Text>
+      </Heading>
+      <Private>
+        <EsecutoreEsameId>24253</EsecutoreEsameId>
+        <EsecutoreEsame>DI GERONIMO^SILVANA</EsecutoreEsame>
+        <Provenienza>LIBERA PROFESSIONE</Provenienza>
+        <CreatoreCD>DI GERONIMO^SILVANA</CreatoreCD>
+        <DocumentUID>34411388</DocumentUID>
+        <AETITLE>CDRADSAC1</AETITLE>
+        <PKTRIAGE>34411388</PKTRIAGE>
+        <RepartoCDM>491</RepartoCDM>
+        <PlacerOrderNumber>21_235796_1</PlacerOrderNumber>
+      </Private>
+    </SRDocument>
+  </Report>
+</Request>
